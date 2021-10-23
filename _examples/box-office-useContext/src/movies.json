@@ -1,0 +1,8 @@
+[
+  { "title": "Shang-Chi and the Legend of the Ten Rings", "rating": 7.9, "sum": 22, "favorite": false },
+  { "title": "Free Guy", "rating": 7.9, "sum": 5.1, "favorite": false },
+  { "title": "Cry Macho", "rating": 5.9, "sum": 4.4, "favorite": false },
+  { "title": "Candyman", "rating": 6.1, "sum": 3.5, "favorite": false },
+  { "title": "Malignant", "rating": 6.3, "sum": 2.7, "favorite": false },
+  { "title": "Copshop", "rating": 6.7, "sum": 2.2, "favorite": false }
+]
