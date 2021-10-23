@@ -372,7 +372,7 @@ $accent-color: #743BBC;
 	}
 
 	.remark-code {
-		font-size: 20px;
+		font-size: .8em;
 	}
 
 	.long-text {
@@ -391,43 +391,42 @@ $accent-color: #743BBC;
 		p, li {
 			font-size: .9em;
 		}
-
-		.remark-inline-code {
-			font-size: .9em;
-		}
 	}
 
 	.long-code .remark-code {
-		font-size: .9em;
+		font-size: .7em;
 	}
 
 	.extra-long-code .remark-code {
-		font-size: .8em;
+		font-size: .6em;
 	}
 
 	.remark-inline-code {
 		color: #ECB730;
-		font-size: 1.2em;
 		font-weight: bold;
-		margin-right: .1em;
-		margin-left: .1em;
-	}
-
-	.chapter .remark-inline-code {
-		font-size: 1.25em;
+		font-family: "Century Gothic";
 	}
 
 	.remark-slide-number {
 		font-size: 14pt;
-//	font-weight: bold;
+//		font-weight: bold;
 		color: white;
 		bottom: 20px !important;
 		right: $horizontal-margin !important;
 	}
 }
 
-.hljs-meta {
-	color: #1f7199 !important;
+pre[class*=language-] {
+    padding: .5em;
+	line-height: 1.15;
+}
+
+.token.interpolation {
+	color: #E2777A;
+}
+
+.token.interpolation-punctuation {
+	color: #67CDCC
 }
 
 @media print {

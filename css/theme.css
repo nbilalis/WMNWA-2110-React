@@ -294,7 +294,7 @@
   margin-bottom: 1em;
 }
 .remark-slide .remark-code {
-  font-size: 20px;
+  font-size: 0.8em;
 }
 .remark-slide .long-text h4 {
   margin-bottom: 0.5em;
@@ -308,24 +308,16 @@
 .remark-slide .long-text p, .remark-slide .long-text li {
   font-size: 0.9em;
 }
-.remark-slide .long-text .remark-inline-code {
-  font-size: 0.9em;
-}
 .remark-slide .long-code .remark-code {
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 .remark-slide .extra-long-code .remark-code {
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 .remark-slide .remark-inline-code {
   color: #ECB730;
-  font-size: 1.2em;
   font-weight: bold;
-  margin-right: 0.1em;
-  margin-left: 0.1em;
-}
-.remark-slide .chapter .remark-inline-code {
-  font-size: 1.25em;
+  font-family: "Century Gothic";
 }
 .remark-slide .remark-slide-number {
   font-size: 14pt;
@@ -334,8 +326,17 @@
   right: 40px !important;
 }
 
-.hljs-meta {
-  color: #1f7199 !important;
+pre[class*=language-] {
+  padding: 0.5em;
+  line-height: 1.15;
+}
+
+.token.interpolation {
+  color: #E2777A;
+}
+
+.token.interpolation-punctuation {
+  color: #67CDCC;
 }
 
 @media print {
