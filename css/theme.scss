@@ -282,6 +282,11 @@ $accent-color: #743BBC;
 				margin: 2rem auto;
 			}
 		}
+
+		blockquote {
+			font-style: italic;
+			color: lightblue;
+		}
 	}
 
 	.list {
@@ -421,6 +426,7 @@ $accent-color: #743BBC;
 pre[class*=language-] {
     padding: .5em;
 	line-height: 1.15;
+	background-color: #1a1a1a;
 }
 
 .token.interpolation {
