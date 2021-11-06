@@ -5,28 +5,28 @@ $accent-color: #743BBC;
 	font-family: 'Century Gothic';
 
 	.remark-slide-content {
-		font-size: 18pt;
+		font-size: 24px;
 		padding: 1em 2em;
 	}
 
 	h1 {
-		font-size: 60pt;
+		font-size: 3.5em; 		// around 80px
 		font-weight: bold;
 	}
 
 	h2 {
-		font-size: 35pt;
+		font-size: 2em; 		// around 48px
 		font-weight: bold;
 		text-transform: uppercase;
 	}
 
 	h3 {
-		font-size: 26pt;
+		font-size: 1.75em;		// around 42px
 		font-weight: bold;
 	}
 
 	p {
-		line-height: 1.4em;
+		line-height: 1.4em;		// around 24px
 	}
 
 	a {
@@ -199,7 +199,7 @@ $accent-color: #743BBC;
 
 	.section {
 		h2 {
-			font-size: 44pt;
+			font-size: 2.5em;	// around 60px
 			color: $accent-color;
 		}
 
@@ -216,6 +216,7 @@ $accent-color: #743BBC;
 		$section-details-sidebar-width: 30%;
 
 		h3 {
+			font-size: 2rem;
 			position: absolute;
 			top: $topbar-height;
 			left: 0;
@@ -262,6 +263,7 @@ $accent-color: #743BBC;
 		}
 
 		> h3 {
+			font-size: 1.7em;		// around 48px
 			color: $accent-color;
 			position: absolute;
 			top: calc(#{$topbar-height} + #{$padding-top});
