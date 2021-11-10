@@ -462,6 +462,8 @@ template: chapter
 
 Στο `state` θα πρέπει να αποθηκεύεται το `index` του στοιχείου που είναι ορατό ή _-1_ αν είναι όλα κρυμμένα.
 
+[Starting point](https://codesandbox.io/s/wyjek)
+
 ---
 template: list
 

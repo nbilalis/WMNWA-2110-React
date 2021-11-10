@@ -1,4 +1,4 @@
-import { useReducer, useRef } from 'react';
+import { useState, useReducer } from 'react';
 import { v4 } from 'uuid';
 
 import './Todos.scss';
@@ -25,32 +25,36 @@ const reducer = (state: Todo[], action: Action) => {
   }
 };
 
-// This is a uncontrolled component
-// Its value is accessed upon form submission
+// This is a controlled component
+// Its value is "sync" with the state
 function Todos() {
+  const [value, setValue] = useState('');
   const [todos, dispatch] = useReducer(reducer, []);
-  const inputEl = useRef<HTMLInputElement>(null);
 
   const addTodo = () => {
-    const el = inputEl.current;
-    const val = el?.value.trim();
-
-    if (el && val && val.length) {
+    if (value.length) {
       // Add a new Todo item
       dispatch({
         type: 'ADD',
-        payload: { id: v4(), text: val },
+        payload: { id: v4(), text: value },
       });
       // Clear the value of the input element
-      el.value = '';
-      el.focus();
+      setValue('');
     }
   };
 
   return (
     <>
       <h2>Todos: {todos.length}</h2>
-      <input ref={inputEl} type="text" title="Enter Todo text here" placeholder="Enter Todo text here" />
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => {
+          setValue(e.currentTarget.value.trim());
+        }}
+        title="Enter Todo text here"
+        placeholder="Enter Todo text here"
+      />
       <button type="button" onClick={addTodo}>
         💾
       </button>
