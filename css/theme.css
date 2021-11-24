@@ -95,6 +95,9 @@
 .remark-slide .common .logo-web {
   right: 40px;
 }
+.remark-slide .common .ruler, .remark-slide .common .footer {
+  line-height: 1em;
+}
 .remark-slide .common .ruler {
   color: white;
   font-family: Arial;
@@ -327,15 +330,15 @@
   margin-bottom: 0.5em;
 }
 .remark-slide .extra-long-text td {
-  font-size: 0.6em;
+  font-size: 0.65em;
 }
 .remark-slide .extra-long-text td,
 .remark-slide .extra-long-text th {
-  padding: 0.3em 0.3em;
+  padding: 0.35em 0.35em;
 }
 .remark-slide .extra-long-text p,
 .remark-slide .extra-long-text li {
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 .remark-slide .long-code .remark-code {
   font-size: 0.7em;
@@ -361,11 +364,15 @@ pre[class*=language-] {
   background-color: #1a1a1a;
 }
 
+.token.comment {
+  color: darkgreen;
+}
+
 .token.interpolation {
   color: #e2777a;
 }
 
-.token.interpolation-punctuation {
+.token.punctuation, .token.interpolation-punctuation {
   color: #67cdcc;
 }
 

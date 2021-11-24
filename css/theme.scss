@@ -495,11 +495,15 @@ pre[class*="language-"] {
   background-color: #1a1a1a;
 }
 
+.token.comment {
+  color: darkgreen;
+}
+
 .token.interpolation {
   color: #e2777a;
 }
 
-.token.interpolation-punctuation {
+.token.punctuation, .token.interpolation-punctuation {
   color: #67cdcc;
 }
 
