@@ -131,6 +131,10 @@ $accent-color: #743bbc;
       right: $horizontal-margin;
     }
 
+    .ruler, .footer {
+      line-height: 1em;
+    }
+
     .ruler {
       color: white;
       font-family: Arial;
