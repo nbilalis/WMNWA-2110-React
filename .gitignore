@@ -5,3 +5,6 @@
 
 _examples/
 node_modules/
+
+tmdb-api-key.txt
+atlas-api-uri.txt
