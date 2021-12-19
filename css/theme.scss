@@ -25,6 +25,17 @@ $accent-color: #743bbc;
     font-weight: bold;
   }
 
+  h4 {
+    font-size: 1.5em; // around 36px
+    font-weight: bold;
+  }
+
+  h5 {
+    font-size: 1em; // around 30px
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
   p {
     line-height: 1.4em; // around 24px
   }
@@ -307,7 +318,7 @@ $accent-color: #743bbc;
     }
 
     > h3 {
-      font-size: 1.7em; // around 48px
+      font-size: 1.6em; // around 48px
       color: $accent-color;
       position: absolute;
       top: calc(#{$topbar-height} + #{$padding-top});
@@ -317,6 +328,18 @@ $accent-color: #743bbc;
       padding: 1em 0.75em;
       box-sizing: border-box;
       text-align: center;
+    }
+
+
+    > h4 {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+
+    > h5 {
+      font-size: 1em;
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
     > p {
@@ -414,11 +437,6 @@ $accent-color: #743bbc;
         bottom: -0.5em;
         border-bottom: $angle-border white solid;
       }
-    }
-
-    > h4 {
-      font-size: 1.2em;
-      margin-bottom: 1em;
     }
   }
 
